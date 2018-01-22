@@ -22,7 +22,7 @@ class ViewController: UIViewController {
                                       accountId: "tnse-testclient-ios",
                                       webView:true,
                                       optionalParams: ["ui_locales": "no", "acr_values": "2"],
-                                      isPublicClient: false)
+                                      isPublicClient: true)
 
     override func viewDidLoad() {
         super.viewDidLoad()
